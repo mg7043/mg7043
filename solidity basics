@@ -1,0 +1,13 @@
+pragma solidity 0.8.9;
+
+contract test {
+    string public name;
+    int public age;
+
+    function name1(string memory _name) public {
+        name = _name;
+    }
+    function age1(int _age) public {
+        age = _age;
+    }
+}
